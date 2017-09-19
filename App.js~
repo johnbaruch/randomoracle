@@ -1,0 +1,20 @@
+import React, { Component } from 'react';
+import './App.css';
+import Verse from './verse';
+class App extends Component {
+ // state = {users: []}
+ //state = {verse: []};
+	
+  
+  render() {
+    return (
+      <div className="App">
+        <h1>fhdfh</h1>
+	<Verse  username="johnbaruch"></Verse>
+        
+      </div>
+    );
+  }
+}
+
+export default App;
